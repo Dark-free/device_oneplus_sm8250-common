@@ -10,3 +10,4 @@
     <!-- Sensor trigger values -->
     <item name="pickup_sensor_value" format="float" type="dimen">0.0</item>
 </resources>
+
