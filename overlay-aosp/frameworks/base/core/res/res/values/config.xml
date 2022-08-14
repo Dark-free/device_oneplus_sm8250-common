@@ -71,4 +71,6 @@
     <!-- Whether to force show vibrate icon on status bar -->
     <bool name="config_forceShowVibrateIconOnStatusBar">true</bool>
 
+    <!-- Whether to force enable multi resolution configuration for camera -->
+    <bool name="config_forceMultiResolution">false</bool>
 </resources>
