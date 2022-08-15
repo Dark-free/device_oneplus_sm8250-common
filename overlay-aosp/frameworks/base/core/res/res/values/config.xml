@@ -73,4 +73,7 @@
 
     <!-- Whether to force enable multi resolution configuration for camera -->
     <bool name="config_forceMultiResolution">false</bool>
+
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
 </resources>
