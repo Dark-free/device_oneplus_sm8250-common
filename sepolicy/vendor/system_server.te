@@ -8,3 +8,5 @@ allow system_server vendor_persist_camera_prop:file { read open write getattr ma
 allow system_server vendor_camera_prop:file { read open write getattr map };
 allow system_server sysfs_oem:file { read open write getattr };
 allow system_server evolution_data_file:file { read open write getattr };
+
+allow system_server sysfs_tri_state_key:file rw_file_perms;
