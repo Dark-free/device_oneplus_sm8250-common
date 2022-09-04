@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
 # AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
+# DeviceExtras Package
+PRODUCT_PACKAGES += \
+    DeviceExtras
+
 # Inherit OOS Camera & gallery packages
 $(call inherit-product, vendor/oneplus/camera/sm8250/config.mk)
 
