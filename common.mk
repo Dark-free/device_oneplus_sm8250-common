@@ -308,10 +308,10 @@ $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    EvolutionFrameworksResCommon \
-    EvolutionSettingsProviderResCommon \
-    EvolutionSettingsResCommon \
-    EvolutionSystemUIResCommon \
+    ElixirFrameworksResCommon \
+    ElixirSettingsProviderResCommon \
+    ElixirSettingsResCommon \
+    ElixirSystemUIResCommon \
     FrameworksResTarget \
     OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
